@@ -1,0 +1,26 @@
+colorscheme zaibatsu
+
+set number     " line numbers
+set rnu        " relative line numbers
+set cursorline " highlight current line
+set encoding=utf-8
+
+set showcmd
+set laststatus=2
+
+" indentation
+set autoindent   " copy indentation from prev. line
+set smartindent  " 
+set tabstop=4    " display tabs as 4 spaces
+set shiftwidth=4 " indent by 4 spaces
+set expandtab    " tabs to spaces
+
+set clipboard=unnamedplus " system clipboard
+
+" mapping
+set backspace=indent,eol,start
+inoremap <C-h> <C-w>
+inoremap <C-s> <esc>:w<CR>
+nnoremap <C-s> :w<CR>
+
+syntax on
