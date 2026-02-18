@@ -16,7 +16,14 @@ What I am using so far:
 - **Editor**: [LazyVim](https://github.com/LazyVim/LazyVim) / Vim
 - **File Manager**: [Yazi](https://github.com/sxyazi/yazi)
 - **Terminal Emulator**: [Ghostty](https://github.com/ghostty-org/ghostty)
-  - **Shell Prompt**: [oh-my-posh](https://github.com/jandedobbeleer/oh-my-posh) (using builtin config `[montys](https://ohmyposh.dev/docs/themes#montys)`)
+  - **Shell Prompt**: [oh-my-posh](https://github.com/jandedobbeleer/oh-my-posh) (using builtin config [`montys`](https://ohmyposh.dev/docs/themes#montys))
+- **Font**:
+  - **Monospace**: IosevkaTerm NerdFont Mono
+  - **Regular**: Adwaita Sans
+
+## Screenshots
+
+To add later
 
 ## Setup
 
