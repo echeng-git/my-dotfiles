@@ -23,6 +23,8 @@ What I am using so far:
 
 ## Screenshots
 
+*i haven't configured fastfetch yet*
+
 ![Desktop Setup](assets/example_screenshot.png) 
 
 ## Setup
