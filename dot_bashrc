@@ -12,4 +12,8 @@ PS1='[\u@\h \W]\$ '
 export PATH=$PATH:'/home/eric/.local/bin'
 
 alias fetch='fastfetch -c examples/13.jsonc'
-eval "$(oh-my-posh init bash --config 'montys'); fetch"
+eval "$(oh-my-posh init bash --config 'montys')"
+
+if [ -z "$CHEZMOI" ]; then
+    fetch
+fi
