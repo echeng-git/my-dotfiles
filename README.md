@@ -3,7 +3,7 @@
 > [!NOTE]
 > Setup uses EndeavourOS on a Microsoft Surface Laptop 2 using the [linux-surface](https://github.com/linux-surface/linux-surface) kernel, but I am pretty sure that it shouldn't matter between distros.
 
-My dotfiles for my Linux setup that I'm constantly changing. I use [chezmoi](https://www.chezmoi.io/) to manage my dotfiles.
+My dotfiles that I'm constantly running (and changing as I go). I use [chezmoi](https://www.chezmoi.io/) to manage my dotfiles.
 
 ## Configuration
 
@@ -21,14 +21,12 @@ What I am using so far:
   - **Monospace**: IosevkaTerm NerdFont Mono
   - **Regular**: Adwaita Sans
 
-## Screenshots
-
-*i haven't configured fastfetch yet*
-
-![Desktop Setup](assets/example_screenshot.png) 
-
 ## Setup
 
 ```sh
 chezmoi init --apply git@github.com:echeng-git/my-dotfiles.git
 ```
+
+## Screenshots
+
+![Desktop Setup](assets/example_screenshot.png) 
