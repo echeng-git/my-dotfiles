@@ -356,11 +356,31 @@ window-rule {
 window-rule {
     match app-id="firefox"
     open-maximized true
+    background-effect {
+        xray true
+        blur true
+    }
 }
 
 window-rule {
     match app-id="ghostty"
     open-maximized true
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 2
+    }
+}
+
+layer-rule {
+    match namespace="^noctalia-(background|launcher-overlay|dock)-.*$"
+    background-effect {
+        xray true
+        blur true
+        noise 0.05
+        saturation 2
+    }
 }
 
 window-rule {
